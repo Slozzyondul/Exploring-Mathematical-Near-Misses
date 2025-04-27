@@ -10,7 +10,7 @@
 
 Fermat "near-misses" approximates the solution of x^n + y^n ~= z^n for all integers, with 0<x<=y<z<2^n in a given interval of n integers.
 
-Extended from z<10^6 to z<2^23 = 8388608 with a threshold of the absolute value r = nz^(n-3)/(z^n - y^n - x^n) at 1.
+Extended from z<10^6 to z<2^23 = 8388608 with a threshold of the absolute value r = nz^(n-3)/(z^n - y^n - x^n) at 1 relative error threshold.
 
 Heuristic suggests that for all n and r0, the number of solutions of |r|<r0 with z<N, should be asymptotically propotional to CnLog(N)/r0 where Cn is the area of Ln "circle" |x|^n + |y|^n < 1 and r<<z^0(1) holds for all n>3.
 
@@ -26,16 +26,16 @@ b). Whenever 3n(n−2) is a square,that is n=(2, 3,) 8, 27, 98, 363,... with the
 This two gives rational curves on twisted Fermat hypersurfaces of degree n>4 in projective (n−2)-space.
 
 # Key points 
-- Finding "near-misses" is NOT totally random — special patterns exist.
+- Finding "near-misses" is not random — special patterns exist.
 
 - Certain values of n (like 8, 27, 98, 363...) have hidden families of near-misses based on deep number theory structure.
 
-- The work shows how ancient math (Fermat's Last Theorem) still leads to new, surprising discoveries.
+- The work shows how ancient math (Fermat's Last Theorem) can lead to new and surprising discoveries.
 
 - Even though integer solutions (for n > 2) don't exist, near-misses tell a deeper story about how numbers behave.
 
 # Python program 
-Python program that searches for near-misses of Fermat's Last Theorem is added
+Python program that outputs near-misses of Fermat's Last Theorem based on the input n, c and a threshold level
 
 Approach:
 Brute-force search within a given range for a,b,c and n.
@@ -44,6 +44,16 @@ Check near-miss condition: Compute ∣a^n+b^n−c^n∣ and see if it's "small" r
 
 Parameter tuning: Adjust thresholds for what counts as a "near-miss."
 
+# How to run 
+git clone https://github.com/Slozzyondul/Fermat-Near-Misses.git
+cd Fermat-Near-Misses
+python3 fermat_near_misses.py
+
+You will be prompted to input the variables based on your desired range 
+n = to what power degree are you targeting must be greater than 2
+c = maximum value (z^n)
+relative error threshold = allowed relative error
+Key in the name you want the results to be stored in at the parent folder of the project.
 
 
 
