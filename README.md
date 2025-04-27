@@ -34,6 +34,16 @@ This two gives rational curves on twisted Fermat hypersurfaces of degree n>4 in 
 
 - Even though integer solutions (for n > 2) don't exist, near-misses tell a deeper story about how numbers behave.
 
+# Python program 
+Python program that searches for near-misses of Fermat's Last Theorem is added
+
+Approach:
+Brute-force search within a given range for a,b,c and n.
+
+Check near-miss condition: Compute ∣a^n+b^n−c^n∣ and see if it's "small" relative to c^n.
+
+Parameter tuning: Adjust thresholds for what counts as a "near-miss."
+
 
 
 
