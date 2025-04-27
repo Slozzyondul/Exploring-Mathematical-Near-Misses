@@ -51,6 +51,7 @@ cd Fermat-Near-Misses
 
 python3 fermat_near_misses.py
 
+# Terminal variables explanation
 You will be prompted to input the variables based on your desired range 
 
 n = to what power degree are you targeting must be greater than 2
