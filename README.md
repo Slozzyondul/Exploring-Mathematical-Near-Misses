@@ -20,6 +20,7 @@ One known family (2nt^n+1)^n -(2nt^n-1)^n with r = (3/(n-2)(n-1)) + O(t^-n) grow
 
 # New polynomial families
 a). Another family of (32t^9 + 6t)^8 + (32t^8 + 7)^8 with r = t^5/21 + O(t^−3) when n = 8. 
+
 b). Whenever 3n(n−2) is a square,that is n=(2, 3,) 8, 27, 98, 363,... with the computation from 10^6 to 2^23 for (192t^8 + 24t^4 − 1)^4 − (192t^8 − 24t^4 − 1)^4 − (192t^7)^4, this yield r = −4t^4 + O(1) = (z/12)^(1/2) + O(1). 
 
 This two gives rational curves on twisted Fermat hypersurfaces of degree n>4 in projective (n−2)-space.
