@@ -46,7 +46,9 @@ Parameter tuning: Adjust thresholds for what counts as a "near-miss."
 
 # How to run 
 git clone https://github.com/Slozzyondul/Fermat-Near-Misses.git
+
 cd Fermat-Near-Misses
+
 python3 fermat_near_misses.py
 
 You will be prompted to input the variables based on your desired range 
