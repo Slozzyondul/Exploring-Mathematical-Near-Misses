@@ -52,9 +52,13 @@ cd Fermat-Near-Misses
 python3 fermat_near_misses.py
 
 You will be prompted to input the variables based on your desired range 
+
 n = to what power degree are you targeting must be greater than 2
+
 c = maximum value (z^n)
+
 relative error threshold = allowed relative error
+
 Key in the name you want the results to be stored in at the parent folder of the project.
 
 
