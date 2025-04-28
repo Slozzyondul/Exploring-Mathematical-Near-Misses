@@ -84,5 +84,10 @@ For instance, when x=100, pi(100) = 25 but 100/log(100) ~ 22 and when x=10000000
 
 This implies the error reduces proportionality when x is a large number.
 
-b.) Diriclet and Gauss approximation 
+b.) Dirichlet and Gauss approximation for pi(x) 
+
+pi(x) ~ Li(x) =  ∫1/(log(x)) dt  at an interval of [2, x] where Li(x) is the logarthmic integral of x.
+
+For instance, pi(1000000000) = 50847534 but Li(1000000000) = 50849234 wgich is more accurate approximation for pi(x).
+
 
