@@ -34,7 +34,7 @@ This two gives rational curves on twisted Fermat hypersurfaces of degree n>4 in 
 
 - Even though integer solutions (for n > 2) don't exist, near-misses tell a deeper story about how numbers behave.
 
-# Python program 
+# Python program (Fermat near-misses)
 Python program that outputs near-misses of Fermat's Last Theorem based on the input n, c and a threshold level
 
 Approach:
@@ -144,6 +144,13 @@ Therefore, if Riemann hypothesis is true then error term has a bound |pi(x) - Li
 Also, if Riemann hypothesis is true, there exist a similiar bound on two consective primes  Pn+1 -Pn <= CsqrtPnlog(Pn)
 
 
+# Python program (Riemann-Zeta zeroes)
+I have included a python program to demonstrate the sections using hard coded values but any value can be used.
 
 
- 
+# How to run 
+git clone https://github.com/Slozzyondul/Fermat-Near-Misses.git
+
+cd Fermat-Near-Misses
+
+riemann_zeta.py
