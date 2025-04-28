@@ -108,6 +108,24 @@ So when s=2 we get (pi^2)/6 and when s=1 harmonic series
 This means that there exists infinitely many primes numbers.
 
 # Riemann-Zeta function
+Riemann used Euler's function but applied a complex plane to it.
+
+ζ(s) = ∑1/n^s from n=1 to infinity = Π (p^s)/((p^s) -1)  where s=w+it only when w>1 otherwise it diverges to infinity.
+
+When w is between 0 and 1, ζ(s) = ((2^s)(pi^s-1)sin((pi^s)/2)Γ(1-s)).ζ(1-s), so ζ(-1) = -1/12.
+
+This means if zeta function is an extension of Euler's function then ∑1/n^-1 from n=1 to infinity ~ -1/12
+
+Riemann-Zeta function has three parts where s is a real part
+
+1.) ∑1/n^s from n=1 to infinity = Π (p^s)/((p^s) -1) when s>1
+
+2.) (1-2^(s-1)^-1) ∑-1^(n+1)/n^s from n=1 to infinity when 0<s<1 
+
+3.) ((2^s)(pi^s-1)sin((pi^s)/2)Γ(1-s)).ζ(1-s) when s<0 we get trivial zero when s = 0,-2,-4,-6,...
+
+
+
 
 
 
