@@ -99,7 +99,7 @@ Which leads to pi(x)= J(x) - (1/2)J(x)^(1/2) - (1/3)J(x)^(1/3) - (1/4)J(x)^(1/4)
 # Euler 
 Euler was interested in harmonic series for instance 1+1/2+1/3+1/4+... diverges towards infinity.
 
-Also, (1/1^x) + (1/2^x) + (1/3^x) + ... converges to a constant for instance when x=2 the series converges to (pi^2)/6  for all integers except when x=1
+Also, (1/1^x) + (1/2^x) + (1/3^x) + ... converges to a constant for all integers x except when x=1
 
 This leads to ∑1/n^s = Π (p^s)/((p^s) -1) from n=1 to infinity = ((2^s)/(2^s)-1)((3^s)/(3^s)-1)((5^s)/(5^s)-1)... which is just an infinite product of primes.
 
