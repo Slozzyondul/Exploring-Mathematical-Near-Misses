@@ -6,7 +6,7 @@
 
 [Link Document](https://people.math.harvard.edu/~elkies/ferm.html)
 
-1. Fermat near-misses.
+# 1. Fermat near-misses.
 
 Fermat "near-misses" approximates the solution of x^n + y^n ~= z^n for all integers, with 0<x<=y<z<2^n in a given interval of n integers.
 
@@ -64,4 +64,25 @@ Key in the name you want the results to be stored in at the parent folder of the
 
 
 
+# 2. Riemann-Zeta Zeroes
+
+To properly understand the Riemann-Zeta zeroes, we need to understand first the prime number theorem.
+
+The prime number theorem approximates how many primes exists less than any given integer x. Since its an approximation, there exists an error because its not actual values.
+
+Riemann hypothesis explores how big that error is.
+
+Error term is related to Riemann-Zeta function when is equal to zero.
+
+So, Riemann hypothesis concludes that the zeros of the Riemann-zeta function all lie on the line (1/2 + it) where it is the complex/imaginary part while 1/2 is the real part.
+
+a.) Prime number theory by Gauss: pi(x) = represents the number of primes less than x.
+
+Therefore, pi(x)/(x/log(x)) -> 1 as x -> infinity or pi(x) ~ x/log(x)
+
+For instance, when x=100, pi(100) = 25 but 100/log(100) ~ 22 and when x=1000000000, pi(1000000000) = 50847534 but 1000000000/log(1000000000) ~ 48254942
+
+This implies the error reduces proportionality when x is a large number.
+
+b.) Diriclet and Gauss approximation 
 
