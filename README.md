@@ -88,7 +88,7 @@ b.) Dirichlet and Gauss approximation for pi(x)
 
 pi(x) ~ Li(x) =  ∫1/(log(x)) dt  at an interval of [2, x] where Li(x) is the logarthmic integral of x.
 
-For instance, pi(1000000000) = 50847534 but Li(1000000000) = 50849234 wgich is more accurate approximation for pi(x).
+For instance, pi(1000000000) = 50847534 but Li(1000000000) = 50849234 which is more accurate approximation for pi(x).
 
 # prime power counting function J(x)
 
@@ -99,7 +99,7 @@ Which leads to pi(x)= J(x) - (1/2)J(x)^(1/2) - (1/3)J(x)^(1/3) - (1/4)J(x)^(1/4)
 # Euler 
 Euler was interested in harmonic series for instance 1+1/2+1/3+1/4+... diverges towards infinity.
 
-Also, (1/1^x) + (1/2^x) + (1/3^x) + ... converges to (pi^2)/6  for all integers except when x=1
+Also, (1/1^x) + (1/2^x) + (1/3^x) + ... converges to a constant for instance when x=2 the series converges to (pi^2)/6  for all integers except when x=1
 
 This leads to ∑1/n^s = Π (p^s)/((p^s) -1) from n=1 to infinity = ((2^s)/(2^s)-1)((3^s)/(3^s)-1)((5^s)/(5^s)-1)... which is just an infinite product of primes.
 
