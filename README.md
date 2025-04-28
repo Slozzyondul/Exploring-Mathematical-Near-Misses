@@ -112,7 +112,7 @@ Riemann used Euler's function but applied a complex plane to it.
 
 ζ(s) = ∑1/n^s from n=1 to infinity = Π (p^s)/((p^s) -1)  where s=w+it only when w>1 otherwise it diverges to infinity.
 
-When w is between 0 and 1, ζ(s) = ((2^s)(pi^s-1)sin((pi^s)/2)Γ(1-s)).ζ(1-s), so ζ(-1) = -1/12.
+When w is a rational number, ζ(s) = ((2^s)(pi^s-1)sin((pi^s)/2)Γ(1-s)).ζ(1-s), so ζ(-1) = -1/12.
 
 This means if zeta function is an extension of Euler's function then ∑1/n^-1 from n=1 to infinity ~ -1/12
 
@@ -120,7 +120,7 @@ Riemann-Zeta function has three parts where s is a real part
 
 1.) ∑1/n^s from n=1 to infinity = Π (p^s)/((p^s) -1) when s>1
 
-2.) (1-2^(s-1)^-1) ∑-1^(n+1)/n^s from n=1 to infinity when 0<s<1 
+2.) (1-2^(s-1)^-1) ∑(-1^(n+1))/n^s from n=1 to infinity when 0<s<1 
 
 3.) ((2^s)(pi^s-1)sin((pi^s)/2)Γ(1-s)).ζ(1-s) when s<0 we get trivial zero when s = 0,-2,-4,-6,...
 
@@ -135,13 +135,13 @@ This means J(x)~Li(x)
 
 So the error term J(x)-Li(x) = ∑Li(x^p) for all p - log(2) + ∫1/log(t)t((t^2)-1) dt from x to infinity.
 
-This implies zeta function has no zeros on the line  d=1 from s=d+it
+This implies zeta function has no zeros on the line  w=1 from s=w+it
 
 Error term for prime numbers is controlled by the non-trivial zeros of zeta function.
 
 Therefore, if Riemann hypothesis is true then error term has a bound |pi(x) - Li(x)| <= Csqrt(xlog(x))
 
-Also, if Riemann hypothesis is true, there existsa similiar bound on two consective primes  Pn+1 -Pn <= CsqrtPnlog(Pn)
+Also, if Riemann hypothesis is true, there exist a similiar bound on two consective primes  Pn+1 -Pn <= CsqrtPnlog(Pn)
 
 
 
