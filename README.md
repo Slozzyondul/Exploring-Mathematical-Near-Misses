@@ -125,8 +125,23 @@ Riemann-Zeta function has three parts where s is a real part
 3.) ((2^s)(pi^s-1)sin((pi^s)/2)Γ(1-s)).ζ(1-s) when s<0 we get trivial zero when s = 0,-2,-4,-6,...
 
 
+From polynomial factorization for instance (x^3)+(2x^2)-13x+10 = (x-1)(x-2)(x+5) applying the same concept to zeta function we get
 
+ζ(s) = (pi^(s/2))/(2(s-1)(Γ(s/2)-1))* Π(1-(s/p)) where p is non-trivial zeros.
 
+Equate factorized zeta function to part 3 of zeta gives J(x) = Li(x)+∑Li(x^p) for all p - log(2) + ∫1/log(t)t((t^2)-1) dt from x to infinity.
+
+This means J(x)~Li(x)
+
+So the error term J(x)-Li(x) = ∑Li(x^p) for all p - log(2) + ∫1/log(t)t((t^2)-1) dt from x to infinity.
+
+This implies zeta function has no zeros on the line  d=1 from s=d+it
+
+Error term for prime numbers is controlled by the non-trivial zeros of zeta function.
+
+Therefore, if Riemann hypothesis is true then error term has a bound |pi(x) - Li(x)| <= Csqrt(xlog(x))
+
+Also, if Riemann hypothesis is true, there existsa similiar bound on two consective primes  Pn+1 -Pn <= CsqrtPnlog(Pn)
 
 
 
