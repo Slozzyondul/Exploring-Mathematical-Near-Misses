@@ -90,4 +90,9 @@ pi(x) ~ Li(x) =  ∫1/(log(x)) dt  at an interval of [2, x] where Li(x) is the l
 
 For instance, pi(1000000000) = 50847534 but Li(1000000000) = 50849234 wgich is more accurate approximation for pi(x).
 
+# prime power counting function J(x)
 
+J(x) = pi(x) + (1/2)pi(x)^(1/2) + (1/3)pi(x)^(1/3) + (1/4)pi(x)^(1/4) + ... 
+
+Which leads to pi(x)= J(x) - (1/2)J(x)^(1/2) - (1/3)J(x)^(1/3) - (1/4)J(x)^(1/4) - ...
+ 
