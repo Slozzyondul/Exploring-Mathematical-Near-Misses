@@ -153,4 +153,4 @@ git clone https://github.com/Slozzyondul/Fermat-Near-Misses.git
 
 cd Fermat-Near-Misses
 
-riemann_zeta.py
+python3 riemann_zeta.py
