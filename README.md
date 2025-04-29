@@ -149,7 +149,10 @@ I have included a python program to demonstrate the sections using hard coded va
 
 
 # How to run 
+
 git clone https://github.com/Slozzyondul/Fermat-Near-Misses.git
+
+Install all the requirements
 
 cd Fermat-Near-Misses
 
